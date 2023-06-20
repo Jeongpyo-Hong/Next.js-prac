@@ -8,7 +8,7 @@ const List = () => {
       <h4 className="title">List Page</h4>
       {items.map((item, idx) => (
         <div className="food" key={idx}>
-          <img className={`food${idx}.png`} src="food0.png" />
+          <img className="food-img" src={`food${idx}.png`} />
           <h4>{item} $40</h4>
         </div>
       ))}
